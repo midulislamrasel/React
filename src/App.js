@@ -16,7 +16,11 @@ function App() {
       children: ([
         {
           path: '/',
-          element:<Home></Home>
+          element: <Home></Home>,
+          loader: async () => {
+            return fetch('https://jsonplaceholder.typicode.com/users');
+            
+          },
         },
         {
           path: '/about',

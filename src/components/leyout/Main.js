@@ -5,9 +5,9 @@ import Navbar from '../Navbar/Navbar';
 const Main = () => {
     return (
         <div>
-            
-            <Outlet></Outlet>
             <Navbar></Navbar>
+            <Outlet></Outlet>
+            
         </div>
     );
 };
