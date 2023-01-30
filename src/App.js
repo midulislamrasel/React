@@ -10,7 +10,7 @@ import Skill from './components/Skill/Skill';
 function App() {
 
   const router = createBrowserRouter([
-      {
+    {
       path: '/',
       element: <Main></Main>,
       children: ([
@@ -24,7 +24,10 @@ function App() {
         },
         {
           path: '/about',
-          element:<About></About>
+          element: <About></About>,
+          loader: async () => { 
+            return fetch('https://jsonplaceholder.typicode.com/posts')
+          }
         },
         {
           path: '/service',
