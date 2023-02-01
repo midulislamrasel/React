@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Main from './components/leyout/Main';
 import Service from './components/Service/Service';
 import Skill from './components/Skill/Skill';
+import Foodorder from './Foodorder.json';
 
 function App() {
 
@@ -31,7 +32,11 @@ function App() {
         },
         {
           path: '/service',
-          element:<Service></Service>
+          element: <Service></Service>,
+          loader: async () => { 
+            return fetch('Foodorder.json')
+              
+          }
         },
         {
           path: '/skill',

@@ -1,0 +1,13 @@
+.foodStyle{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr; 
+    grid-gap: 20px;
+    margin: 20px;
+}
+.divFood{
+    border: 2px solid khaki;
+    padding: 10px;
+}
+.foodImg{
+    width: 250px;
+}

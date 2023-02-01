@@ -1,0 +1,49 @@
+[
+    {   "id":"1",
+        "Name": "Food Number 1",
+        "Price": "200 tk",
+        "img": "img/img1.jpg"
+    },
+    {
+        "id":"2",
+        "Name": "Food Number 2",
+        "Price": "100 tk",
+        "img": "img/img2.jpg"
+    },
+    {
+        "id":"3",
+        "Name": "Food Number 3",
+        "Price": "250 tk",
+        "img": "img/img3.jpg"
+    },
+    {
+        "id":"4",
+        "Name": "Food Number 4",
+        "Price": "50 tk",
+        "img": "img/img4.jpg"
+    },
+    {
+        "id":"5",
+        "Name": "Food Number 5",
+        "Price": "500 tk",
+        "img": "img/img5.jpg"
+    },
+    {
+        "id":"6",
+        "Name": "Food Number 2",
+        "Price": "100 tk",
+        "img": "img/img2.jpg"
+    },
+    {
+        "id":"7",
+        "Name": "Food Number 3",
+        "Price": "250 tk",
+        "img": "img/img3.jpg"
+    },
+    {
+        "id":"8",
+        "Name": "Food Number 4",
+        "Price": "50 tk",
+        "img": "img/img4.jpg"
+    }
+]
